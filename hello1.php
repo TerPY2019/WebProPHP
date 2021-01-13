@@ -7,12 +7,14 @@
 </head>
 <body>
     <ol>
-    <h2>hello</h2> 
-    <h3>Nakhon Pathom</h3>
-    <h2>Welcome to phpmyaddmin</h2>
+    <?php 
+      echo "<h1>Hello</h1><br>";
+      echo "<h2>Nakhon Pathom</h2>";
+    ?>
     <a href='content/data.html'>Link to Dota.html</a>
     </ol>
-    <h1>Suppanut Juni</h1>
+    
+
 
 </body>
 </html>

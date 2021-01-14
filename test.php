@@ -13,6 +13,8 @@
             echo('<h1>'."Max is Numbers ".$x.'</h1>');
             echo("<h1>"."function ads ".abs(-6.6)."</h1>");
             echo("<h1>"."function returns the square root of a number"."echo(sqrt(64)) = ".sqrt(64)."</h1>");
+            define("GREETING", "Welcome to Suppanut junwilai");
+            echo GREETING;
         ?>
         
 </body>

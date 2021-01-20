@@ -8,7 +8,8 @@
         $y = "abc";
         echo "$ x = "; echo $x; echo "<br />";
         echo "$ y = "; echo $y; echo "<br />";
-        $x = &$y;
+        //$x = &$y;
+        $x = $y;
         echo "$ x = &$ y <br />";
         echo "$ x = "; echo $x; echo "<br />";
         echo "New value $ x<br />";

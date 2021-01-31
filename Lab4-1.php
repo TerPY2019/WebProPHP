@@ -18,6 +18,7 @@
         echo "ผลคูณ"." ".$sub."  *  ".$add."=".$multiply ; echo "<br />";
         echo "ผลหาร"." ".$multiply."  /  ".$add."=".$divide ; echo "<br />";
         echo $message; echo "<br />";
+        echo "<h1>".5**2."</h1>";
     ?>
 </body>
 </html>

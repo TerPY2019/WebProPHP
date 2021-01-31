@@ -79,7 +79,7 @@
                     </select>
                 </td>
                 <td>
-                    <select name="grad3" >
+                    <select name="grade3" >
                         <option value="A">A</option>
                         <option value="B+">B+</option>
                         <option value="B">B</option>
@@ -137,7 +137,7 @@
             </tr>
         </h2>
         </table><br><br><br><br><br><br><br><br>
-        <h2 align="left"><input  type="submit" style="font-size: 20px;" value="submit" ></h2>
+        <h2 align="left"><input  type="submit" style="font-size: 20px;" name="submit" value="submit" ></h2>
     </form>
     <?php else:?>
         <?php function chackgrade($grade){

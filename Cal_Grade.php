@@ -7,7 +7,7 @@
 </head>
     <body>
     <h2> 
-    <form action="#" method="get">
+    <form action="#" method="post">
         Final : <input type="number" name = "final" max="30" min="0"><br><br>
         Midterm : <input type="number" name = "midterm" max="30" min="0"><br><br>
         Assignment :<input type="number" name = "assignment" min="0" max="20"><br><br>
@@ -18,14 +18,14 @@
     <h2>
     <?php 
         error_reporting(0);
-        if(isset($_GET["subm"])){
-            $f = $_GET["final"];
-            $m = $_GET["midterm"];
-            $a = $_GET["assignment"];
-            $h = $_GET["homework"];
+        if(isset($_POST["subm"])){
+            $f = $_POST["final"];
+            $m = $_POST["midterm"];
+            $a = $_POST["assignment"];
+            $h = $_POST["homework"];
             $total =   $f+$m+$a+$h;
             $Grade = "";
-            if( $total >= 80 && $total == 100){
+            if( $total >= 80 && $total <= 100){
                 $Grade ="A";
             }elseif  ( $total >= 75 && $total <= 79){
                 $Grade ="B+";

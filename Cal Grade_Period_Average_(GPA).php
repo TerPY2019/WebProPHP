@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <?php if (!isset($_GET['submit'])) : ?>
+<?php if (!isset($_GET['submit'])) : ?>
     <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="get" style="font-size: 20px;text-align: right">
         <table border="2" align="left" width="350">
         <h2>
